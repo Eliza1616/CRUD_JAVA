@@ -118,7 +118,7 @@ public class persona extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setText("Seleccione un Genero:");
+        jLabel7.setText("Genero:");
 
         cbxGenero.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona", "Masculino", "Femenino" }));
 
