@@ -118,7 +118,7 @@ public class persona extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setText("Genero:");
+        jLabel7.setText("Seleccione un Genero:");
 
         cbxGenero.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona", "Masculino", "Femenino" }));
 
@@ -201,7 +201,7 @@ public class persona extends javax.swing.JFrame {
                                 .addComponent(txtClave, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(32, 32, 32)
                                 .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnBuscar)
                         .addGap(88, 88, 88))))
         );
